@@ -928,7 +928,7 @@ function wppb_front_end_profile_info() {
 					
 					//copy over extra fields to the rest of the fieldso on the edit profile
 					foreach($returnedValue as $key => $value)
-						$editProfileFilterArray2[$key] = $value;
+						$editProfileFilterArray2[$key] = apply_filters('wppb_edit_profile_content_'.$key, $value, $returnedValue, $key );
 				}
 				
 				/* additional filter, just in case it is needed  */
