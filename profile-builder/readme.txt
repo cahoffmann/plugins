@@ -6,10 +6,10 @@ Tags: registration, profile, user registration, custom field registration, custo
 custom registration, custom registration form, custom registration page, extra user fields, registration page, user custom fields, user listing, user login, user registration form, front-end login, 
 front-end register, front-end registration, frontend edit profile, edit profile
 Requires at least: 3.1
-Tested up to: 3.4.1
-Stable tag: 1.1.33
+Tested up to: 3.5
+Stable tag: 1.1.41
 
-Simple to use profile plugin allowing front-end login, registration and edit profile by using shortcodes. 
+Simple to use profile plugin allowing front-end login, registration and edit profile by using shortcodes.
  
 == Description ==
 
@@ -93,6 +93,30 @@ This plugin only adds/removes fields in the front-end. The default information-f
 5. Logged in Page: screenshot7.jpg
 
 == Changelog ==
+= 1.1.41 =
+Email Confirmation bug on WPMU fixed.
+
+= 1.1.40 =
+Minor changes to the readme file.
+
+= 1.1.39 =
+Security issue fixed regarding the "Email Confirmation" feature
+
+= 1.1.38 =
+Added a fix (suggested by http://wordpress.org/support/profile/maximinime) regarding the admin bar not displaying properly in some instances.
+
+= 1.1.37 =
+Minor changes to the readme file.
+
+= 1.1.36 =
+Minor changes to the readme file.
+
+= 1.1.35 =
+Added support for WP 3.5
+
+= 1.1.34 =
+Separated some of the plugin's functions into separate files. Also fixed a few bugs.
+
 = 1.1.33 =
 Fixed function where it wouldn't create the _signups table in the free version.
 
